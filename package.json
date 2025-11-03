@@ -13,10 +13,13 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "nuxt": "^4.0.1",
-    "@nuxt/ui": "3.0.0",
+    "@ai-sdk/openai": "1.2.0",
     "@nuxt/eslint": "1.2.0",
+    "@nuxt/ui": "3.0.0",
+    "@nuxtjs/mdc": "^0.18.0",
+    "ai": "4.1.51",
     "eslint": "^9.0.0",
+    "nuxt": "^4.0.1",
     "vue": "latest",
     "vue-router": "latest"
   },
