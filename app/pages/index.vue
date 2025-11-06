@@ -1,9 +1,14 @@
+<script setup lang="ts">
+const { createChatAndNavigate } = useChats();
+async function handleCreateChat() {
+  await createChatAndNavigate();
+}
+</script>
+
 <template>
   <UContainer class="page-container">
-    <h1 class="title">Nuxt Chat</h1>
-    <UButton to="/chat" class="button">
-      Start Chat
-    </UButton>
+    <span class="text-2xl font-bold mb-2"> AI Chat Application </span>
+    <UButton class="button" @click="handleCreateChat"> Start Chat </UButton>
   </UContainer>
 </template>
 

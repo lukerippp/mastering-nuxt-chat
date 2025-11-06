@@ -8,4 +8,12 @@ export interface Chat {
   id: string;
   title: string;
   messages: ChatMessage[];
+  projectId?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Project {
+  id: string;
+  name: string;
 }
